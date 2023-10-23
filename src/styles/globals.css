@@ -7,3 +7,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.section-form {
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0.2em;
+}
+
+.section-form .h2-content {
+  text-align: center;
+  margin: 0.5em auto;
+  margin-bottom: 0.2em;
+  border-bottom: 3px solid orange;
+  padding: 0;
+}
+
+.form-content {
+  margin: 0.5em auto;
+}
+
+button {
+  justify-content: right;
+  display: flex;
+  margin: 0 70%;
+}
+
+.ant-form-item {
+  margin-bottom: 0.8em;
+}
